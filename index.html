@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LandingPAge</title>
+    <title>LandingPage</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
@@ -18,9 +18,8 @@
                         text-white hover:border-red-300 hover:text-black duration-300 hover:border border-transparent "> ثبت آگهی</a>
       
                     </button>
-                </div>
-                
-                <div  class="flex ">
+                </div>       
+                <!-- <div  class=" flex  ">
                     <ul class="flex">
                         <div class="flex text-slate-600  ">
                             <li class="mx-5">دیوار من</li>
@@ -39,7 +38,7 @@
                             <i class="fa-solid fa-ticket"></i>
                         </div>
                     </ul>
-                </div>
+                </div> -->
                 <div class='max-w-md w-1/4 mx-auto'>
                     <div class="relative flex items-center w-full h-12 rounded-lg focus-within:shadow-lg bg-white overflow-hidden">
                         <div class="grid place-items-center h-full w-12 text-gray-300">
@@ -64,8 +63,6 @@
                             <li><a href="#" class="block px-4 py-2" >لوازم خانگی</a></li>
                             <li><a href="#" class="block px-4 py-2" >لوازم خانگی</a></li>
                             <li><a href="#" class="block px-4 py-2" >لوازم خانگی</a></li>
-    
-    
                         </ul>
                     </div>
                 </div>
@@ -77,111 +74,107 @@
                 <hr>   
             </nav>
         </div>
-        <div class="secondpart flex">
-            
-            <div class="leftSide flex justify-between max-w-sm lg:max-w-full lg:flex style="height: auto; width: 80%;">
-                <div class="card justify-end p-2 ">
-                    <div class="container flex justify-between rounded-lg drop-shadow-md" style="height: 150px; width: 350px; background: #f2f2f2;">
-                        <div class="img">
-                            <img class="place-content-center mt-2" src="img/img1.png" alt="img" style="height: 90%">
-                        </div>
-                        <div class="txt text-right mr-3 mt-3">
-                            <h2>تشک دو نفری طبی</h2>
-                            <br>
-                            <p>کار کرده</p>
-                            <p>1500 تومان</p>
-                            <p><small>لحظاتی پیش در تهران</small></p>
-                        </div>
-                    </div>
-                </div>
-                <!---------->
-                <div class="card justify-end p-2">
-                    <div class="container flex justify-between rounded-lg drop-shadow-md" style="height: 150px; width: 350px; background: #f2f2f2;">
-                        <div class="img">
-                            <img class="place-content-center mt-2" src="img/img1.png" alt="img" style="height: 90%">
-                        </div>
-                        <div class="txt text-right mr-3 mt-3">
-                            <h2>تشک دو نفری طبی</h2><br>
-                            <p>کار کرده</p>
-                            <p>1500 تومان</p>
-                            <p><small>لحظاتی پیش در تهران</small></p>
-                        </div>
-                    </div>
-                </div>
-                <!---------->
-                <div class="card justify-end p-2">
-                    <div class="container flex justify-between rounded-lg drop-shadow-md" style="height: 150px; width: 350px; background: #f2f2f2;">
-                        <div class="img">
-                            <img class="place-content-center mt-2" src="img/img1.png" alt="img" style="height: 90%">
-                        </div>
-                        <div class="txt text-right mr-3 mt-3">
-                            <h2>تشک دو نفری طبی</h2><br>
-                            <p>کار کرده</p>
-                            <p>1500 تومان</p>
-                            <p><small>لحظاتی پیش در تهران</small></p>
-                        </div>
-                    </div>
-                </div>
-                <!---------->
-                
-              
-            </div>
-            
-            <div class="rightSide text-right border" style="height: auto; width: 20%;">
-                <h3>دسته‌ها</h3>
-                <div class="allcat mr-5 mt-3">
-                    <div class="list flex justify-end mb-3 ">
-                        <h3>املاک</h3>
-                        <i class="fa-solid fa-person-shelter pl-3"></i>
-                    </div>
-                    <div class="list flex justify-end mb-3 ">
-                        <h3>املاک</h3>
-                        <i class="fa-solid fa-person-shelter pl-3 "></i>
-                    </div>
-                    <div class="list flex justify-end  mb-3">
-                        <h3>املاک</h3>
-                        <i class="fa-solid fa-person-shelter pl-3 "></i>
-                    </div>
-                    <div class="list flex justify-end  mb-3">
-                        <h3>املاک</h3>
-                        <i class="fa-solid fa-person-shelter pl-3 "></i>
-                    </div>
-                </div>
-                <hr>
-                <div class="location ma">
-                    <label for="location">محل</label>
-                    <form >
-                        <input class="text-right border rounded-lg mb-3" type="text" placeholder="تعیین محل" style="width: 90%;">
-                    </form>
-                    <hr>
-                    <br>
-                </div>
-                <div class="price">
-                    <h3>قیمت</h3>
-                    <form class="flex mt-3 ">
-                        <select name="price" id="price" style="width: 90%;" class="rounded-lg mr-4">
-                            <option value="100">تومان</option>
-                            <option value="100">100</option>
-                            <option value="100">100</option>
-                            <option value="100">100</option>
-                        </select>
-                        <label for="minimum">حداقل</label>
-                    </form>
-                    <form class="flex mt-3 mb-3">
-                        <select name="price" id="price" style="width: 90%;" class="rounded-lg mr-4">
-                            <option value="100">تومان</option>
-                            <option value="100">100</option>
-                            <option value="100">100</option>
-                            <option value="100">100</option>
-                        </select>
-                        <label for="minimum">حداکثر</label>
-                    </form>
-                    <hr>
-                    <br>
-                </div>
 
-                <div class="situation">
-                    <h3>وضعیت آگهی</h3>
+       
+
+    </div><!--main-->
+    <div class="container flex">
+        <div class="left grid grid-cols-1 lg:grid-cols-3 p-2 mr-1 ">
+            <div class="card grid grid-cols-2 gap-4 p-2 border border-gray-300 rounded-lg shadow-lg " > 
+                <div class="aspect-w-16 aspect-h-16 ">
+                    <img src="img/img1.png" alt="image" class="w-full rounded-lg">
+                </div>
+                <!---col 2-->
+            <div class="text-right flex flex-col justify-between sm:text-xl ">
+                <h2 class="mb-2 mt-2">تخت فلت کار کرده</h2><br><br><br>
+                <p>۳۰۰۰۰ تومان</p>
+                <p>دقایقی پیش در تهران</p>
+            </div> 
+            </div>
+            <!----->
+            <div class="card grid grid-cols-2 gap-4 p-2 border border-gray-300 rounded-lg shadow-lg " > 
+                <div class="aspect-w-16 aspect-h-16 ">
+                    <img src="img/img1.png" alt="image" class="w-full rounded-lg">
+                </div>
+                <!---col 2-->
+            <div class="text-right flex flex-col justify-between sm:text-xl ">
+                <h2 class="mb-2 mt-2">تخت فلت کار کرده</h2><br><br><br>
+                <p>۳۰۰۰۰ تومان</p>
+                <p>دقایقی پیش در تهران</p>
+            </div> 
+            </div>
+            <!----->
+            <div class="card grid grid-cols-2 gap-4 p-2 border border-gray-300 rounded-lg shadow-lg " > 
+                <div class="aspect-w-16 aspect-h-16 ">
+                    <img src="img/img1.png" alt="image" class="w-full rounded-lg">
+                </div>
+                <!---col 2-->
+            <div class="text-right flex flex-col justify-between sm:text-xl ">
+                <h2 class="mb-2 mt-2">تخت فلت کار کرده</h2><br><br><br>
+                <p>۳۰۰۰۰ تومان</p>
+                <p>دقایقی پیش در تهران</p>
+            </div> 
+            </div>
+            <!----->
+            <div class="card grid grid-cols-2 gap-4 p-2 border border-gray-300 rounded-lg shadow-lg " > 
+                <div class="aspect-w-16 aspect-h-16 ">
+                    <img src="img/img1.png" alt="image" class="w-full rounded-lg">
+                </div>
+                <!---col 2-->
+            <div class="text-right flex flex-col justify-between sm:text-xl ">
+                <h2 class="mb-2 mt-2">تخت فلت کار کرده</h2><br><br><br>
+                <p>۳۰۰۰۰ تومان</p>
+                <p>دقایقی پیش در تهران</p>
+            </div> 
+            </div>
+            <!----->
+            <div class="card grid grid-cols-2 gap-4 p-2 border border-gray-300 rounded-lg shadow-lg " > 
+                <div class="aspect-w-16 aspect-h-16 ">
+                    <img src="img/img1.png" alt="image" class="w-full rounded-lg">
+                </div>
+                <!---col 2-->
+            <div class="text-right flex flex-col justify-between sm:text-xl ">
+                <h2 class="mb-2 mt-2">تخت فلت کار کرده</h2><br><br><br>
+                <p>۳۰۰۰۰ تومان</p>
+                <p>دقایقی پیش در تهران</p>
+            </div> 
+            </div>
+            <!----->
+        </div>
+
+        <div class="right text-right bg-red-200  sm:w-1/6 md:w-3/6 lg:w-1/6  ">
+            <div class="menu text-right	">
+                <h2> دسته </h2>
+                <ul>
+                    <div class="mb-2">
+                        <i> املاک</i>
+                        <i class="fa-solid fa-arrows-to-eye ml-3  "></i>
+                    </div>
+                    <div class="mb-2">
+                        <i> املاک</i>
+                        <i class="fa-solid fa-arrows-to-eye ml-3  "></i>
+                    </div>
+                    <div class="mb-2">
+                        <i> املاک</i>
+                        <i class="fa-solid fa-arrows-to-eye ml-3  "></i>
+                    </div>
+                    <div class="mb-2">
+                        <i> املاک</i>
+                        <i class="fa-solid fa-arrows-to-eye ml-3  "></i>
+                    </div>
+                    <div class="mb-2">
+                        <i> املاک</i>
+                        <i class="fa-solid fa-arrows-to-eye ml-3  "></i>
+                    </div>
+                </ul>
+                <hr class="py-4">
+                <form >
+                    <h2>محل</h2>
+                    <input class="text-right" type="text" placeholder="تعیین محل ">
+                </form>
+                <hr class="py-4">
+                <form >
+                    <h2>وضعیت اگهی</h2>
                     <label class="switch mr-4">فقط عکس دار
                         <input type="checkbox">
                         <span class="slider"></span>
@@ -190,20 +183,13 @@
                       <label class="switch mr-4">فقط فوری ها
                         <input type="checkbox">
                         <span class="slider"></span>
-                      </label>
-                      
-                 
-                </div>
+                      </label>               
+                </form>
 
-
-
-                    
-               
-                
             </div>
         </div>
 
-    </div><!--main-->
+    </div>
     
 </body>
 </html>
